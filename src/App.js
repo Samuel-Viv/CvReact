@@ -1,6 +1,7 @@
 import React from 'react';
 import {Routes, Route, NavLink, Link} from 'react-router-dom';
 import "./css/style.css";
+import "./css/home.css"
 
 import Home from "./page/Home"
 import Services from "./page/Services"
@@ -133,7 +134,7 @@ export default function App() {
           
         </div>
       </div><div class="copyright">
-            <p class="text-white text-center p-2"><small><i class="fa-regular fa-copyright"></i> Designed by John Doe</small></p>
+            <p class="copy text-white text-center p-2"><small><i class="fa-regular fa-copyright"></i> Designed by John Doe</small></p>
           </div>
     </footer>
     </div>
