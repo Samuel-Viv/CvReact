@@ -2,6 +2,9 @@
 body {
   font-family: "Nunito Sans", sans-serif;
 }
+body main {
+  background-color: #eee;
+}
 body h1, body h2, body h3, body h4, body h5, body strong {
   font-weight: 600;
 }
@@ -12,6 +15,7 @@ body p {
 nav .container-fluid {
   background-color: #000000;
   opacity: 0.8;
+  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -43,4 +47,7 @@ footer h5 {
 }
 footer a {
   text-decoration: none;
+}
+footer .copy {
+  background-color: #444;
 }/*# sourceMappingURL=style.css.map */

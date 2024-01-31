@@ -9,6 +9,10 @@ $titres: #1e1e1e;
 
 body{
     font-family: $font-family ;
+
+    main{
+      background-color:$blanc;
+    }
     h1, h2, h3, h4, h5, strong {
         font-weight: 600;
     } 
@@ -57,7 +61,9 @@ footer {
     a {
       text-decoration: none;
     }
-
+    .copy{
+      background-color: $gris;
+    }
 
   }
   
