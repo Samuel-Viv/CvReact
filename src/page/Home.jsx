@@ -6,6 +6,7 @@ const Home = () => {
     <div>
       <main>
         <section>
+
           <div className="accueil " id="accueil">
             <div className="opacity"></div>
             <h1 className='titre-accueil'>Bonjour, je suis John Doe</h1>
@@ -27,11 +28,11 @@ const Home = () => {
               Passionné par l'informatique et les nouvelles technologie, j'ai suivi une formation
               d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation,
               j'ai pu acquérir des bases solides pour travailler dans le domaine du
-              <strong>développement web</strong>.
+              <strong> développement web</strong>.
             </p>
             <p>
               Basé à Lyon, je suis en recherche d'un alternance au sein d'une agence digitale pour
-              consolider ma formation de <strong>développeur web full stack</strong>.
+              consolider ma formation de <strong> développeur web full stack</strong>.
             </p>
             <p>
               J'accorde une attention particulière à la qualité du code que j'écris et je respecte
@@ -39,8 +40,10 @@ const Home = () => {
             </p>
           </div>
         </div>
+
         <div className="col-md-6">
           <div className="photo">
+
             <img src={JohnDoe} alt="John Doe" ></img>
           </div>
 
