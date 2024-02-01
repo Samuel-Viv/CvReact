@@ -1,0 +1,29 @@
+.barre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.barre .barre_bleu {
+  height: 4px;
+  width: 25%;
+  background-color: #0d6efd;
+}
+
+.card {
+  display: flex;
+}
+.card h2 {
+  font-size: 1.5rem;
+}
+.card .bouton {
+  display: flex;
+  justify-content: center;
+}
+.card .bouton .btn {
+  width: 100px;
+}
+
+.para-titre {
+  font-size: 1.25rem;
+}/*# sourceMappingURL=realisation.css.map */
