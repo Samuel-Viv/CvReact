@@ -6,8 +6,8 @@ const Home = () => {
     <div>
       <main>
         <section>
-          <div class="accueil " id="accueil">
-            <div class="opacity"></div>
+          <div className="accueil " id="accueil">
+            <div className="opacity"></div>
             <h1>Bonjour, je suis John Doe</h1>
             <h2>Développeur web full stack</h2>
             <a href="#apropos" class="btn btn-primary">
@@ -16,13 +16,13 @@ const Home = () => {
           </div>
         </section>
 
-        <section class="container py-3 ">
-        <div class="carte row my-3 mx-2 p-5 ">
-          <div class="apropos_presentation col-md-6 ">
-            <div class="titre_apropos  " id="apropos">
+        <section className="container py-3 ">
+        <div className="carte row my-3 mx-2 p-5 ">
+          <div className="apropos_presentation col-md-6 ">
+            <div className="titre_apropos  " id="apropos">
               <h3>À propos</h3>
             </div>
-          <div class="paragraphe">
+          <div className="paragraphe">
             <p>
               Passionné par l'informatique et les nouvelles technologie, j'ai suivi une formation
               d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation,
@@ -39,46 +39,46 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="photo">
-            <img src={JohnDoe} alt="photo de John Doe" ></img>
+        <div className="col-md-6">
+          <div className="photo">
+            <img src={JohnDoe} alt="John Doe" ></img>
           </div>
 
-          <div class="competence ">
-            <h4 class="text-title">Mes compétences</h4>
-              <div class="html pt-2">
+          <div className="competence ">
+            <h4 className="text-title">Mes compétences</h4>
+              <div className="html pt-2">
                 <p>HTML5 90%</p>
-                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
-                  <div class="progress-bar bg-danger html5"></div>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
+                  <div className="progress-bar bg-danger html5"></div>
                 </div>
               </div>
 
             
-              <div class="css pt-2">
+              <div className="css pt-2">
                 <p>CSS3 80%</p>
-                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
-                  <div class="progress-bar bg-info css3"></div>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
+                  <div className="progress-bar bg-info css3"></div>
                 </div>
               </div>
         
-              <div class="javascript pt-2">
+              <div className="javascript pt-2">
                 <p>JAVASCRIPT 70%</p>
-                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
-                  <div class="progress-bar bg-warning js"></div>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
+                  <div className="progress-bar bg-warning js"></div>
                 </div>
               </div>
 
-              <div class="php pt-2">
+              <div className="php pt-2">
                 <p>PHP 60%</p>
-                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
-                  <div class="progress-bar bg-success php-bar" ></div>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
+                  <div className="progress-bar bg-success php-bar" ></div>
                 </div>
               </div>
 
-              <div class="react pt-2">
+              <div className="react pt-2">
                 <p>REACT 50%</p>
-                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
-                  <div class="progress-bar bg-primary react-bar " ></div>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
+                  <div className="progress-bar bg-primary react-bar " ></div>
                 </div>
               </div>
               
