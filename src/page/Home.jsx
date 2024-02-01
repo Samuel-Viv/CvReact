@@ -19,7 +19,7 @@ const Home = () => {
 
         <section className="container py-3 ">
         <div className="carte row my-3 mx-2 p-5 ">
-          <div className="apropos_presentation col-md-6 ">
+          <div className="apropos_presentation col-md-6">
             <div className="titre_apropos  " id="apropos">
               <h3>À propos</h3>
             </div>

@@ -18,8 +18,10 @@ section .opacity {
   width: 100%;
   height: 100%;
 }
+
 section .titre-accueil, section .h2-accueil, section a {
   color: white;
+
   z-index: 4;
 }
 section h1 {
