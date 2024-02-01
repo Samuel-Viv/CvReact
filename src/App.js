@@ -4,6 +4,7 @@ import "./css/style.css";
 import "./css/home.css";
 import "./css/service.css"
 import "./css/realisation.css"
+import "./css/mentions.css"
 
 import Home from "./page/Home"
 import Service from "./page/Service"
@@ -60,7 +61,7 @@ export default function App() {
         <Route path='/Contact' element={<Contact/>}></Route>
         <Route path='/Blog' element={<Blog/>}></Route>
         <Route path='/Realisation' element={<Realisation/>}></Route>
-        <Route path='/Mention' element={<Mentions/>}></Route>
+        <Route path='/Mentions' element={<Mentions/>}></Route>
       </Routes>
     </header>
 
