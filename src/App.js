@@ -3,6 +3,7 @@ import {Routes, Route, NavLink, Link} from 'react-router-dom';
 import "./css/style.css";
 import "./css/home.css";
 import "./css/service.css"
+import "./css/realisation.css"
 
 import Home from "./page/Home"
 import Service from "./page/Service"
@@ -104,15 +105,15 @@ export default function App() {
       <div class="footer_realisation col-md-6 col-lg-3 py-3 px-3">
         <h5>Mes dernières réalisations</h5>
         <div class="lien_mentions">
-          <Link class="icon-link "   to="./realisation.html#realisation1"><i class="fa-solid fa-chevron-right text-primary"></i>Fresh food</Link>
+          <Link class="icon-link "   to="/realisation#realisation1"><i class="fa-solid fa-chevron-right text-primary"></i>Fresh food</Link>
         </div>
 
         <div class="lien_mentions">
-          <Link class="icon-link "   to="./realisation.html#realisation2"><i class="fa-solid fa-chevron-right text-primary"></i>Restaurant Akira</Link>
+          <Link class="icon-link "   to="/realisation#realisation2"><i class="fa-solid fa-chevron-right text-primary"></i>Restaurant Akira</Link>
         </div>
 
         <div class="lien_mentions">
-          <Link class="icon-link "   to="./realisation.html#realisation3"><i class="fa-solid fa-chevron-right text-primary"></i>Espace bien-être</Link>
+          <Link class="icon-link "   to="/realisation#realisation3"><i class="fa-solid fa-chevron-right text-primary"></i>Espace bien-être</Link>
         </div>
       </div>
 
