@@ -1,10 +1,11 @@
 import React from 'react';
 import {Routes, Route, NavLink, Link} from 'react-router-dom';
 import "./css/style.css";
-import "./css/home.css"
+import "./css/home.css";
+import "./css/service.css"
 
 import Home from "./page/Home"
-import Services from "./page/Services"
+import Service from "./page/Service"
 import Contact from "./page/Contact"
 import Blog from "./page/Blog"
 import Realisation from "./page/Realisation"
@@ -36,7 +37,7 @@ export default function App() {
  to="/">Accueil</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Sevices">service</NavLink>
+                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Service">service</NavLink>
               </li>
               <li className="nav-item mx-2">
                 <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Realisation">réalisation</NavLink>
@@ -54,7 +55,7 @@ export default function App() {
 
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/Services' element={<Services/>}></Route>
+        <Route path='/Service' element={<Service/>}></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
         <Route path='/Blog' element={<Blog/>}></Route>
         <Route path='/Realisation' element={<Realisation/>}></Route>
@@ -88,7 +89,7 @@ export default function App() {
         </div>
         
         <div class="lien_services">
-          <Link class="icon-link "    to="/Services"><i class="fa-solid fa-chevron-right text-primary"></i>Services</Link>
+          <Link class="icon-link "    to="/Service"><i class="fa-solid fa-chevron-right text-primary"></i>Services</Link>
         </div>
 
         <div class="lien_contact">
