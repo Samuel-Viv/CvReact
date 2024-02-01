@@ -9,8 +9,8 @@ const Home = () => {
 
           <div className="accueil " id="accueil">
             <div className="opacity"></div>
-            <h1>Bonjour, je suis John Doe</h1>
-            <h2>Développeur web full stack</h2>
+            <h1 className='titre-accueil'>Bonjour, je suis John Doe</h1>
+            <h2 className='h2-accueil'>Développeur web full stack</h2>
             <a href="#apropos" class="btn btn-primary">
               En savoir plus
             </a>
