@@ -7,6 +7,7 @@ import "./css/service.css";
 import "./css/realisation.css";
 import "./css/mentions.css";
 import "./css/blog.css";
+import "./css/contact.css"
 
 import Home from "./page/Home"
 import Service from "./page/Service"
