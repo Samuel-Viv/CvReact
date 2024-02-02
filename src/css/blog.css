@@ -1,0 +1,14 @@
+.section-blog .card {
+  display: flex;
+}
+.section-blog .card h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.section-blog .card .bouton-blog {
+  display: flex;
+}
+.section-blog .card .bouton-blog .btn {
+  width: 125px;
+  margin: 0;
+}/*# sourceMappingURL=blog.css.map */
