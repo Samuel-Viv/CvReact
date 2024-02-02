@@ -1,0 +1,22 @@
+
+
+.section-blog{
+    .card {
+        display: flex;
+        
+        h2 {
+          font-size: 2rem;
+          font-weight: 600;
+        }
+    
+        .bouton-blog {
+          display: flex;
+        //   margin-left: 1.5rem;
+        //   margin-bottom: 1.5rem;
+          .btn {
+            width: 125px;
+            margin: 0;
+          }
+        }
+      }
+}

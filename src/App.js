@@ -1,10 +1,12 @@
 import React from 'react';
 import {Routes, Route, NavLink, Link} from 'react-router-dom';
+// css
 import "./css/style.css";
 import "./css/home.css";
-import "./css/service.css"
-import "./css/realisation.css"
-import "./css/mentions.css"
+import "./css/service.css";
+import "./css/realisation.css";
+import "./css/mentions.css";
+import "./css/blog.css";
 
 import Home from "./page/Home"
 import Service from "./page/Service"
@@ -12,6 +14,7 @@ import Contact from "./page/Contact"
 import Blog from "./page/Blog"
 import Realisation from "./page/Realisation"
 import Mentions from "./page/Mentions"
+
 
 
 export default function App() {
@@ -48,7 +51,7 @@ export default function App() {
                 <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Blog">blog</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/contact">me contacter</NavLink>
+                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Contact">me contacter</NavLink>
               </li>
             </ul>
           </div>
@@ -122,15 +125,15 @@ export default function App() {
         <h5>Mes derniers articles</h5>
 
         <div class="lien_mentions">
-          <Link class="icon-link "   to="./blog.html#blog1"><i class="fa-solid fa-chevron-right text-primary"></i>Coder son site en HTML/CSS</Link>
+          <Link class="icon-link "   to="/Blog#blog1"><i class="fa-solid fa-chevron-right text-primary"></i>Coder son site en HTML/CSS</Link>
         </div>
 
         <div class="lien_mentions">
-          <Link class="icon-link "   to="./blog.html#blog2"><i class="fa-solid fa-chevron-right text-primary"></i>Vendre ses produits sur le web</Link>
+          <Link class="icon-link "   to="/Blog#blog2"><i class="fa-solid fa-chevron-right text-primary"></i>Vendre ses produits sur le web</Link>
         </div>
 
          <div class="lien_mentions">
-          <Link class="icon-link "   to="./blog.html#blog3"><i class="fa-solid fa-chevron-right text-primary"></i>Se positionner sur Google</Link>
+          <Link class="icon-link "   to="/Blog#blog3"><i class="fa-solid fa-chevron-right text-primary"></i>Se positionner sur Google</Link>
         </div>
       </div>
 
