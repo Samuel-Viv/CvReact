@@ -11,7 +11,7 @@ const Home = () => {
             <div className="opacity"></div>
             <h1 className='titre-accueil'>Bonjour, je suis John Doe</h1>
             <h2 className='h2-accueil'>Développeur web full stack</h2>
-            <a href="#apropos" class="btn btn-primary">
+            <a href="#apropos" className="btn btn-primary">
               En savoir plus
             </a>
           </div>

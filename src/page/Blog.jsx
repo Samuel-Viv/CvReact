@@ -16,7 +16,7 @@ const Blog = () => {
             <h1 className="text-uppercase">Blog</h1>
             <p className="para-titre">Retrouvez ici quelques articles sur le développement web.</p>
             <div className="barre pb-5">
-              <div class="barre_bleu bg-primary"></div>
+              <div className="barre_bleu bg-primary"></div>
             </div>
           </div>
 

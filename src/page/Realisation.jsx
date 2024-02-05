@@ -12,7 +12,7 @@ const Realisation = () => {
         <div className="text-center">
           <h1 className="text-uppercase">Portfolio</h1>
           <p className="para-titre">Voici quelques-unes de mes réalisation</p>
-          <div className="barre pb-5"><div class="barre_bleu bg-primary"></div></div>
+          <div className="barre pb-5"><div className="barre_bleu bg-primary"></div></div>
         </div>
 
         <div className="realisations container">
@@ -27,7 +27,7 @@ const Realisation = () => {
                 <div className="bouton">
                   <a href="#" className="btn btn-outline-primary m-3">Voir</a>
                 </div>
-                <div class="card-footer text-center pt-3">
+                <div className="card-footer text-center pt-3">
                   <p>Site réalisé avec du PHP et MySQL</p>
                 </div>
               </div>
