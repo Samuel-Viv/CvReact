@@ -63,78 +63,78 @@ export default function App() {
     </header>
 
     <footer  >
-      <div class="container">
-        <div class="row">
-      <address class="col-md-6 col-lg-3 py-3 px-3" >
-        <p class="name">John Doe</p>
+      <div className="container">
+        <div className="row">
+      <address className="col-md-6 col-lg-3 py-3 px-3" >
+        <p className="name">John Doe</p>
         <p>40 Rue Laure Diebold </p>
        <p> 69009 Lyon, France </p>
        <p> Téléphone : 06 20 30 40 50 </p>
-      <div class="icons px-3">
-        <a href="https://codesandbox.io/p/sandbox/github-johndoe-dt6zq2?file=%2Fsrc%2Fstyles.css%3A11%2C24" target="_blank"><i class="fa-brands fa-github icon-48" ></i></a>
-        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter icon-48"></i></a>
-        <a href="https://fr.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin icon-48"></i></a>
+      <div className="icons px-3">
+        <a href="https://codesandbox.io/p/sandbox/github-johndoe-dt6zq2?file=%2Fsrc%2Fstyles.css%3A11%2C24" target="_blank"><i className="fa-brands fa-github icon-48" ></i></a>
+        <a href="https://twitter.com/" target="_blank"><i className="fa-brands fa-square-twitter icon-48"></i></a>
+        <a href="https://fr.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin icon-48"></i></a>
       </div>
     </address>
 
-      <div class="liens_utiles col-md-6 col-lg-3 px-3 py-3">
+      <div className="liens_utiles col-md-6 col-lg-3 px-3 py-3">
         <h5>Liens utiles</h5>
-        <div class="lien_accueil">
-          <Link class="icon-link "  to="/"><i class="fa-solid fa-chevron-right text-primary"></i>Accueil</Link>
+        <div className="lien_accueil">
+          <Link className="icon-link "  to="/"><i className="fa-solid fa-chevron-right text-primary"></i>Accueil</Link>
         </div>
 
-        <div class="lien_apropos">
-          <Link class="icon-link "   to="/#apropos"><i class="fa-solid fa-chevron-right text-primary"></i>À propos</Link>
+        <div className="lien_apropos">
+          <Link className="icon-link "   to="/#apropos"><i className="fa-solid fa-chevron-right text-primary"></i>À propos</Link>
         </div>
         
-        <div class="lien_services">
-          <Link class="icon-link "    to="/Services"><i class="fa-solid fa-chevron-right text-primary"></i>Services</Link>
+        <div className="lien_services">
+          <Link className="icon-link "    to="/Services"><i className="fa-solid fa-chevron-right text-primary"></i>Services</Link>
         </div>
 
-        <div class="lien_contact">
-          <Link class="icon-link "   to="/Contact"><i class="fa-solid fa-chevron-right text-primary"></i>Me contacter</Link>
+        <div className="lien_contact">
+          <Link className="icon-link "   to="/Contact"><i className="fa-solid fa-chevron-right text-primary"></i>Me contacter</Link>
         </div>
 
-        <div class="lien_mentions">
-          <Link class="icon-link "   to="/Mentions"><i class="fa-solid fa-chevron-right text-primary"></i>Mentions légales</Link>
+        <div className="lien_mentions">
+          <Link className="icon-link "   to="/Mentions"><i className="fa-solid fa-chevron-right text-primary"></i>Mentions légales</Link>
         </div>
       </div>
 
-      <div class="footer_realisation col-md-6 col-lg-3 py-3 px-3">
+      <div className="footer_realisation col-md-6 col-lg-3 py-3 px-3">
         <h5>Mes dernières réalisations</h5>
-        <div class="lien_mentions">
-          <Link class="icon-link "   to="./realisation.html#realisation1"><i class="fa-solid fa-chevron-right text-primary"></i>Fresh food</Link>
+        <div className="lien_mentions">
+          <Link className="icon-link "   to="./realisation.html#realisation1"><i className="fa-solid fa-chevron-right text-primary"></i>Fresh food</Link>
         </div>
 
-        <div class="lien_mentions">
-          <Link class="icon-link "   to="./realisation.html#realisation2"><i class="fa-solid fa-chevron-right text-primary"></i>Restaurant Akira</Link>
+        <div className="lien_mentions">
+          <Link className="icon-link "   to="./realisation.html#realisation2"><i className="fa-solid fa-chevron-right text-primary"></i>Restaurant Akira</Link>
         </div>
 
-        <div class="lien_mentions">
-          <Link class="icon-link "   to="./realisation.html#realisation3"><i class="fa-solid fa-chevron-right text-primary"></i>Espace bien-être</Link>
+        <div className="lien_mentions">
+          <Link className="icon-link "   to="./realisation.html#realisation3"><i className="fa-solid fa-chevron-right text-primary"></i>Espace bien-être</Link>
         </div>
       </div>
 
-      <div class="last_articles col-md-6 col-lg-3 py-3 pb-4 px-3">
+      <div className="last_articles col-md-6 col-lg-3 py-3 pb-4 px-3">
         <h5>Mes derniers articles</h5>
 
-        <div class="lien_mentions">
-          <Link class="icon-link "   to="./blog.html#blog1"><i class="fa-solid fa-chevron-right text-primary"></i>Coder son site en HTML/CSS</Link>
+        <div className="lien_mentions">
+          <Link className="icon-link "   to="./blog.html#blog1"><i className="fa-solid fa-chevron-right text-primary"></i>Coder son site en HTML/CSS</Link>
         </div>
 
-        <div class="lien_mentions">
-          <Link class="icon-link "   to="./blog.html#blog2"><i class="fa-solid fa-chevron-right text-primary"></i>Vendre ses produits sur le web</Link>
+        <div className="lien_mentions">
+          <Link className="icon-link "   to="./blog.html#blog2"><i className="fa-solid fa-chevron-right text-primary"></i>Vendre ses produits sur le web</Link>
         </div>
 
-         <div class="lien_mentions">
-          <Link class="icon-link "   to="./blog.html#blog3"><i class="fa-solid fa-chevron-right text-primary"></i>Se positionner sur Google</Link>
+         <div className="lien_mentions">
+          <Link className="icon-link "   to="./blog.html#blog3"><i className="fa-solid fa-chevron-right text-primary"></i>Se positionner sur Google</Link>
         </div>
       </div>
 
           
         </div>
-      </div><div class="copyright">
-            <p class="copy text-white text-center p-2"><small><i class="fa-regular fa-copyright"></i> Designed by John Doe</small></p>
+      </div><div className="copyright">
+            <p className="copy text-white text-center p-2"><small><i className="fa-regular fa-copyright"></i> Designed by John Doe</small></p>
           </div>
     </footer>
     </div>
