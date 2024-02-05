@@ -4,13 +4,14 @@ import Ordi from "../image/ordi.jpg";
 import Responsive from "../image/responsive.jpg";
 import Seo from "../image/seo.jpg";
 import Langage from "../image/langage.jpg";
+import BackToTop from "../composent/BackToTop";
 
 const Blog = () => {
   return (
     <div>
       <main>
         <div className="image"></div>
-
+        <BackToTop className="back-to-top"/>
         <section className="section-blog pb-5">
           <div className="text-center p-5">
             <h1 className="text-uppercase">Blog</h1>

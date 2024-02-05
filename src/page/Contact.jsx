@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import BackToTop from "../composent/BackToTop";
 
 const Contact = () => {
   const [errorMessageVisible, setErrorMessageVisible] = useState(false);
@@ -43,7 +44,7 @@ const Contact = () => {
         <section>
           <div className="image_bg">
             <div className="background_bleu py-5">
-              <div className="contact container">
+              <div className="contact container"><BackToTop/>
                 <div className="blanc row text-center pt-5 px-5">
                   <div className="col-md-12">
                     <h1 className="text-uppercase pb-3" id="contact">
