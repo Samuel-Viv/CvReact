@@ -95,7 +95,9 @@ export default function App() {
         </div>
         
         <div className="lien_services">
-          <Link className="icon-link "    to="/Service"><i className="fa-solid fa-chevron-right text-primary"></i>Services</Link>
+
+          <Link className="icon-link "    to="/Services"><i className="fa-solid fa-chevron-right text-primary"></i>Services</Link>
+
         </div>
 
         <div className="lien_contact">
@@ -110,15 +112,17 @@ export default function App() {
       <div className="footer_realisation col-md-6 col-lg-3 py-3 px-3">
         <h5>Mes dernières réalisations</h5>
         <div className="lien_mentions">
-          <Link className="icon-link "   to="/realisation#realisation1"><i className="fa-solid fa-chevron-right text-primary"></i>Fresh food</Link>
+
+          <Link className="icon-link "   to="./realisation.html#realisation1"><i className="fa-solid fa-chevron-right text-primary"></i>Fresh food</Link>
         </div>
 
         <div className="lien_mentions">
-          <Link className="icon-link "   to="/realisation#realisation2"><i className="fa-solid fa-chevron-right text-primary"></i>Restaurant Akira</Link>
+          <Link className="icon-link "   to="./realisation.html#realisation2"><i className="fa-solid fa-chevron-right text-primary"></i>Restaurant Akira</Link>
         </div>
 
         <div className="lien_mentions">
-          <Link className="icon-link "   to="/realisation#realisation3"><i className="fa-solid fa-chevron-right text-primary"></i>Espace bien-être</Link>
+          <Link className="icon-link "   to="./realisation.html#realisation3"><i className="fa-solid fa-chevron-right text-primary"></i>Espace bien-être</Link>
+
         </div>
       </div>
 
@@ -126,15 +130,17 @@ export default function App() {
         <h5>Mes derniers articles</h5>
 
         <div className="lien_mentions">
-          <Link className="icon-link "   to="/Blog#blog1"><i className="fa-solid fa-chevron-right text-primary"></i>Coder son site en HTML/CSS</Link>
+
+          <Link className="icon-link "   to="./blog.html#blog1"><i className="fa-solid fa-chevron-right text-primary"></i>Coder son site en HTML/CSS</Link>
         </div>
 
         <div className="lien_mentions">
-          <Link className="icon-link "   to="/Blog#blog2"><i className="fa-solid fa-chevron-right text-primary"></i>Vendre ses produits sur le web</Link>
+          <Link className="icon-link "   to="./blog.html#blog2"><i className="fa-solid fa-chevron-right text-primary"></i>Vendre ses produits sur le web</Link>
         </div>
 
          <div className="lien_mentions">
-          <Link className="icon-link "   to="/Blog#blog3"><i className="fa-solid fa-chevron-right text-primary"></i>Se positionner sur Google</Link>
+          <Link className="icon-link "   to="./blog.html#blog3"><i className="fa-solid fa-chevron-right text-primary"></i>Se positionner sur Google</Link>
+
         </div>
       </div>
 

@@ -9,8 +9,9 @@ const Home = () => {
 
           <div className="accueil " id="accueil">
             <div className="opacity"></div>
-            <h1 className='titre-accueil'>Bonjour, je suis John Doe</h1>
-            <h2 className='h2-accueil'>Développeur web full stack</h2>
+            <h1>Bonjour, je suis John Doe</h1>
+            <h2>Développeur web full stack</h2>
+
             <a href="#apropos" className="btn btn-primary">
               En savoir plus
             </a>
@@ -19,7 +20,9 @@ const Home = () => {
 
         <section className="container py-3 ">
         <div className="carte row my-3 mx-2 p-5 ">
-          <div className="apropos_presentation col-md-6">
+
+          <div className="apropos_presentation col-md-6 ">
+
             <div className="titre_apropos  " id="apropos">
               <h3>À propos</h3>
             </div>
@@ -43,8 +46,8 @@ const Home = () => {
 
         <div className="col-md-6">
           <div className="photo">
+            <img src={JohnDoe} alt="photo de John Doe" ></img>
 
-            <img src={JohnDoe} alt="John Doe" ></img>
           </div>
 
           <div className="competence ">
