@@ -1,8 +1,12 @@
+import BackToTop from "../composent/BackToTop";
+
 const Service = () => {
   return (
     <div>
       <main>
         <div className="image"></div>
+
+        <BackToTop/>
 
         <section className="container py-3">
         <div className="services">

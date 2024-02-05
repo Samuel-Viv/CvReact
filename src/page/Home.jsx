@@ -1,3 +1,4 @@
+import BackToTop from '../composent/BackToTop';
 import JohnDoe from '../image/john_doe.jpg'
 
 
@@ -9,14 +10,16 @@ const Home = () => {
 
           <div className="accueil " id="accueil">
             <div className="opacity"></div>
-            <h1>Bonjour, je suis John Doe</h1>
-            <h2>Développeur web full stack</h2>
+            <h1 className='titre-accueil'>Bonjour, je suis John Doe</h1>
+            <h2 className='h2-accueil'>Développeur web full stack</h2>
 
             <a href="#apropos" className="btn btn-primary">
               En savoir plus
             </a>
           </div>
         </section>
+        
+        <BackToTop/>
 
         <section className="container py-3 ">
         <div className="carte row my-3 mx-2 p-5 ">

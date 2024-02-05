@@ -1,7 +1,10 @@
+import BackToTop from "../composent/BackToTop";
+
 const Mentions = () => {
   return (
     <div>
       <main>
+        <BackToTop/>
         <section className="pb-4">
           <div className="text-center pt-5">
             <h1 className="text-uppercase pt-5  pb-2" id="mentions">
