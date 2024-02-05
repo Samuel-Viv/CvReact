@@ -1,14 +1,21 @@
 import React from 'react';
 import {Routes, Route, NavLink, Link} from 'react-router-dom';
+// css
 import "./css/style.css";
-import "./css/home.css"
+import "./css/home.css";
+import "./css/service.css";
+import "./css/realisation.css";
+import "./css/mentions.css";
+import "./css/blog.css";
+import "./css/contact.css"
 
 import Home from "./page/Home"
-import Services from "./page/Services"
+import Service from "./page/Service"
 import Contact from "./page/Contact"
 import Blog from "./page/Blog"
 import Realisation from "./page/Realisation"
 import Mentions from "./page/Mentions"
+
 
 
 export default function App() {
@@ -36,7 +43,7 @@ export default function App() {
  to="/">Accueil</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Sevices">service</NavLink>
+                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Service">service</NavLink>
               </li>
               <li className="nav-item mx-2">
                 <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Realisation">réalisation</NavLink>
@@ -45,7 +52,7 @@ export default function App() {
                 <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Blog">blog</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/contact">me contacter</NavLink>
+                <NavLink className={({ isActive }) => (isActive ? 'text-light  nav-link ' : 'text-secondary nav-link')} to="/Contact">me contacter</NavLink>
               </li>
             </ul>
           </div>
@@ -54,11 +61,11 @@ export default function App() {
 
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/Services' element={<Services/>}></Route>
+        <Route path='/Service' element={<Service/>}></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
         <Route path='/Blog' element={<Blog/>}></Route>
         <Route path='/Realisation' element={<Realisation/>}></Route>
-        <Route path='/Mention' element={<Mentions/>}></Route>
+        <Route path='/Mentions' element={<Mentions/>}></Route>
       </Routes>
     </header>
 
@@ -88,7 +95,9 @@ export default function App() {
         </div>
         
         <div className="lien_services">
+
           <Link className="icon-link "    to="/Services"><i className="fa-solid fa-chevron-right text-primary"></i>Services</Link>
+
         </div>
 
         <div className="lien_contact">
@@ -103,6 +112,7 @@ export default function App() {
       <div className="footer_realisation col-md-6 col-lg-3 py-3 px-3">
         <h5>Mes dernières réalisations</h5>
         <div className="lien_mentions">
+
           <Link className="icon-link "   to="./realisation.html#realisation1"><i className="fa-solid fa-chevron-right text-primary"></i>Fresh food</Link>
         </div>
 
@@ -112,6 +122,7 @@ export default function App() {
 
         <div className="lien_mentions">
           <Link className="icon-link "   to="./realisation.html#realisation3"><i className="fa-solid fa-chevron-right text-primary"></i>Espace bien-être</Link>
+
         </div>
       </div>
 
@@ -119,6 +130,7 @@ export default function App() {
         <h5>Mes derniers articles</h5>
 
         <div className="lien_mentions">
+
           <Link className="icon-link "   to="./blog.html#blog1"><i className="fa-solid fa-chevron-right text-primary"></i>Coder son site en HTML/CSS</Link>
         </div>
 
@@ -128,6 +140,7 @@ export default function App() {
 
          <div className="lien_mentions">
           <Link className="icon-link "   to="./blog.html#blog3"><i className="fa-solid fa-chevron-right text-primary"></i>Se positionner sur Google</Link>
+
         </div>
       </div>
 

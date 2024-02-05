@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap");
 
+
 $font-family: "Nunito Sans", sans-serif;
 $gris: #444;
 $blanc: #eee;
@@ -13,13 +14,18 @@ body{
     main{
       background-color:$blanc;
     }
-    h1, h2, h3, h4, h5, strong {
+    h1, h2, h3, h4, h5 {
         font-weight: 600;
+        color: $titres;
     } 
    p{
     font-weight:400 ;
+    color: $gris;
    }
-  
+   strong{
+    font-weight: 600;
+    color: $black;
+   }
 }
  nav{
     .container-fluid{
@@ -54,9 +60,6 @@ footer {
         font-size: 48px;
         color: $gris;
       }
-    }
-    h5 {
-      font-weight: 600;
     }
     a {
       text-decoration: none;

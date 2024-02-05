@@ -6,10 +6,12 @@ const Home = () => {
     <div>
       <main>
         <section>
+
           <div className="accueil " id="accueil">
             <div className="opacity"></div>
             <h1>Bonjour, je suis John Doe</h1>
             <h2>Développeur web full stack</h2>
+
             <a href="#apropos" className="btn btn-primary">
               En savoir plus
             </a>
@@ -18,7 +20,9 @@ const Home = () => {
 
         <section className="container py-3 ">
         <div className="carte row my-3 mx-2 p-5 ">
+
           <div className="apropos_presentation col-md-6 ">
+
             <div className="titre_apropos  " id="apropos">
               <h3>À propos</h3>
             </div>
@@ -27,11 +31,11 @@ const Home = () => {
               Passionné par l'informatique et les nouvelles technologie, j'ai suivi une formation
               d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation,
               j'ai pu acquérir des bases solides pour travailler dans le domaine du
-              <strong>développement web</strong>.
+              <strong> développement web</strong>.
             </p>
             <p>
               Basé à Lyon, je suis en recherche d'un alternance au sein d'une agence digitale pour
-              consolider ma formation de <strong>développeur web full stack</strong>.
+              consolider ma formation de <strong> développeur web full stack</strong>.
             </p>
             <p>
               J'accorde une attention particulière à la qualité du code que j'écris et je respecte
@@ -39,9 +43,11 @@ const Home = () => {
             </p>
           </div>
         </div>
+
         <div className="col-md-6">
           <div className="photo">
             <img src={JohnDoe} alt="photo de John Doe" ></img>
+
           </div>
 
           <div className="competence ">
@@ -56,8 +62,8 @@ const Home = () => {
             
               <div className="css pt-2">
                 <p>CSS3 80%</p>
-                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
-                  <div class="progress-bar bg-info css3"></div>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
+                  <div className="progress-bar bg-info css3"></div>
                 </div>
               </div>
         
@@ -68,10 +74,10 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="php pt-2">
+              <div className="php pt-2">
                 <p>PHP 60%</p>
-                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
-                  <div class="progress-bar bg-success php-bar" ></div>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 
+                  <div className="progress-bar bg-success php-bar" ></div>
                 </div>
               </div>
 
