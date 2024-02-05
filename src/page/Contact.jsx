@@ -1,3 +1,4 @@
+import { getByDisplayValue } from "@testing-library/react";
 import React, { useState, useRef, useEffect } from "react";
 
 const Contact = () => {
@@ -63,9 +64,10 @@ const Contact = () => {
                     <div className="titre_formulaire">
                       <h2>Formulaire de contact</h2>
                     </div>
+
                     {/* Message d'erreur */}
                     {errorMessageVisible && (
-                      <div className="my-2">
+                      <div className="my-2" id="error-message" >
                         <div className="p-4">
                           <p className="text-red">
                             <i className="fa-solid fa-circle-xmark"></i> Tous les champs doivent
@@ -77,7 +79,7 @@ const Contact = () => {
 
                     {/* Message de validation */}
                     {validMessageVisible && (
-                      <div className="my-2">
+                      <div className="my-2" id="valid-message">
                         <div className="p-4">
                           <p className="text-green">
                             <i className="fa-regular fa-thumbs-up"></i> Le formulaire a bien été
@@ -88,7 +90,7 @@ const Contact = () => {
                     )}
 
                     {/* formulaire   */}
-                    <form action="#" method="post" ref={formRef} onSubmit={handleSubmit}>
+                    <form action="#" method="post" ref={formRef} >
                       <input type="text" className="input my-1" id="nom" placeholder="Votre nom" />
 
                       <input

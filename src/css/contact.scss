@@ -58,10 +58,11 @@ $titres: #1e1e1e;
               border:solid 1px red ;
               border-radius: 5px;
               background-color: rgba(255, 0, 0, 0.162);
-              display: none;
+              
              .text-red{
               color: red;
-              font-size: small;
+              font-size: medium;
+                
              }
             }
   
@@ -69,10 +70,10 @@ $titres: #1e1e1e;
               border:solid 1px green ;
               border-radius: 5px;
               background-color: rgba(0, 128, 0, 0.338);
-              display: none;
+              
              .text-green{
               color: green;
-              font-size: small;
+              font-size: medium;
              }
             }
             .input {
