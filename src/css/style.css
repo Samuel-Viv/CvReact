@@ -48,6 +48,11 @@ nav .container-fluid {
   display: none;
 }
 
+.back-to-top:hover {
+  background-color: #298eff !important;
+  border: #298eff !important;
+}
+
 footer {
   background-color: rgba(177, 169, 169, 0.401);
 }
