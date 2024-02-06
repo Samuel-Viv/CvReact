@@ -49,8 +49,16 @@ body{
     position: fixed;
     top: 90%;
     right: 4%;
+    opacity: 0;
   }
 
+  .back-to-top.visible{
+    opacity: 1;
+  }
+
+  .back-to-top.hidden{
+    display: none;
+  }
 
 footer {
     background-color: rgba(177, 169, 169, 0.401);
