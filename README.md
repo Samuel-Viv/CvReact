@@ -138,6 +138,6 @@ ce projet contiendra :
    L'application React doit afficher les informations du profil github.
 
 
-Vous trouverez les ipressions écrans du wc3 des differentes pages dans le dossier public.
+Vous trouverez les impressions écrans du wc3 des differentes pages dans le dossier public.
 
 https://samvivier.alwaysdata.net/index.html 
